@@ -266,7 +266,7 @@ img {
   margin-right: 0;
 }
 .section-three {
-  padding-top: 120px;
+  padding-top: 0;
   padding-bottom: 120px;
 }
 .section-three-list-item {
@@ -277,6 +277,29 @@ img {
   padding-bottom: 120px;
 } */
 /* section 4 */
+
+/* .section-team-icon {
+  padding: 12px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: calc((100% - 3 * 24px) / 4);
+  margin-right: 24px;
+  fill: none;
+}
+.section-team-icon:last-child {
+  margin-right: 0;
+}
+.section-team-icon:hover,
+.section-team-icon:active {
+  background-color: #31d0aa;
+} */
+
+.section-team-svg {
+  display: flex;
+  justify-content: center;
+  max-width: 232px;
+  margin: 0 auto;
+}
 .section-team {
   background: #f4f4fd;
   padding: 120px 0;
@@ -292,6 +315,7 @@ img {
 /* .section-team-list {
   padding-bottom: 120px;
 } */
+
 .section-team-list > li {
   margin-right: 24px;
 }
@@ -312,11 +336,68 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
+}
+/*  section-five */
+.section-five {
+  padding: 120px 0;
+}
+.section-five-icon {
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+}
+.section-five-list {
+  justify-content: space-between;
+}
+.section-five-list-item {
+  margin-right: 24px;
+  width: calc((100% - 5 * 24px) / 6);
+}
+.section-five-list-item:last-child {
+  margin-right: 0;
 }
 /* footer */
+.footer-tittle {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+.footer-list {
+}
+.footer-list-item {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: calc((100% - 3 * 16px) / 4);
+  margin-right: 24px;
+  fill: none;
+}
+.footer-list-item:hover,
+.footer-list-item:active {
+  background-color: #31d0aa;
+}
+
+.footer-list-item:last-child {
+  margin-right: 0;
+}
 .footer {
   background: #2e2f42;
   padding: 100px 0;
+}
+.footer-section-one {
+  margin-right: 120px;
+}
+.footer-container {
+  display: flex;
 }
 .footer-text {
   color: #f4f4fd;
