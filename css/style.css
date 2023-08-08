@@ -396,6 +396,8 @@ img {
   gap: 24px;
   fill: none;
 }
+
+
 .footer-list-link {
   width: 100%;
   height: 100%;
@@ -405,10 +407,10 @@ img {
   align-items: center;
   justify-content: center;
 }
-.footer-list-link:hover,
+/* .footer-list-link:hover,
 .footer-list-link:focus {
   background-color: #404bbf; ;
-}
+} */
 
 .footer-list-item:hover,
 .footer-list-item:active {
