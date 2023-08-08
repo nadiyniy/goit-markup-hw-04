@@ -68,12 +68,10 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
 }
-/* .header-link {
-  padding: 24px 0;
-} */
+
 .header-logo {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
@@ -104,6 +102,8 @@ img {
 }
 .list-item > .link {
   color: #2e2f42;
+  display: block;
+  padding: 15px 0;
 }
 .list-item > a:focus,
 .list-item > a:hover {
@@ -123,6 +123,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  display: block;
+  padding: 15px 0;
 }
 .address-link:hover,
 .address-link:focus {
