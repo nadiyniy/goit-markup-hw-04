@@ -368,7 +368,7 @@ img {
 }
 /* footer */
 .footer-icon {
-  fill: currentColor;
+  fill: #f4f4fd;
 }
 .footer-tittle {
   color: #fff;
@@ -405,7 +405,7 @@ img {
 
 .footer-list-link:hover,
 .footer-list-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;;
 }
 
 
