@@ -321,10 +321,11 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
 }
-/* .section-team-list {
-  padding-bottom: 120px;
-} */
+.section-team-list {
+  gap: 24px;
+}
 
 /* .section-team-list > li {
   margin-right: 24px;
