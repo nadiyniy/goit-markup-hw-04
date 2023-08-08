@@ -368,7 +368,7 @@ img {
 }
 /* footer */
 .footer-icon {
-  fill: #f4f4fd;
+  fill: currentColor;
 }
 .footer-tittle {
   color: #fff;
