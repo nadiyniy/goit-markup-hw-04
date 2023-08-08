@@ -68,10 +68,12 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.link {
+/* .header-link {
   padding: 24px 0;
-}
+} */
 .header-logo {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
