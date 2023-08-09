@@ -556,6 +556,7 @@ img {
   transform: translatey(0);
 }
 
+
 .filter {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -580,6 +581,7 @@ img {
   background: #f4f4fd;
   padding: 12px 24px;
 }
+
 .filter-button:hover,
 .filter-button:focus {
   color: #fff;
