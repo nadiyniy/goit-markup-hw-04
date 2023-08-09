@@ -206,11 +206,9 @@ img {
   top: 24px;
   right: 24px;
   fill: #2e2f42;
-
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -219,10 +217,9 @@ img {
   fill: #ffffff;
 }
 
-/* .close-icon {
-  fill: #2e2f42;
+.close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 /* .close-icon:hover,
 .close-icon:focus {
   fill: #ffffff;
