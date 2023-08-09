@@ -566,9 +566,9 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-block-link:hover .backdrop-text 
+.filter-block-link:hover .backdrop-text,
 .filter-block-link:focus .backdrop-text {
-    transform: translatey(0);
+  transform: translatey(0);
 }
 
 .filter {
