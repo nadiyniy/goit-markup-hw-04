@@ -42,21 +42,23 @@ img {
 /* header */
 .current {
   position: relative;
+  color: #404bbf;
 }
 .current::after {
   width: 100%;
   height: 4px;
   background-color: #404bbf;
   position: absolute;
-  top: 100%;
+  bottom: -1px;
   left: 0;
   content: '';
-  opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* opacity: 1; */
+  /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   border-radius: 2px;
 }
 .current:hover::after {
   opacity: 1;
+  color: #404bbf;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -70,6 +72,21 @@ img {
   align-items: center;
   /* padding-top: 15px;
   padding-bottom: 15px; */
+}
+
+.header-link.current.link {
+  color: #404bbf;
+  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ; */
+}
+.list-item > .link {
+  color: #2e2f42;
+  display: block;
+  padding: 15px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-item > a:focus,
+.list-item > a:hover {
+  color: #404bbf;
 }
 
 .header-logo {
@@ -100,15 +117,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.list-item > .link {
-  color: #2e2f42;
-  display: block;
-  padding: 15px 0;
-}
-.list-item > a:focus,
-.list-item > a:hover {
-  color: #404bbf;
-}
+
 .address {
   font-style: normal;
 }
@@ -125,6 +134,7 @@ img {
   letter-spacing: 0.32px;
   display: block;
   padding: 15px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -186,9 +196,9 @@ img {
   align-items: center;
   justify-content: center;
   position: absolute;
-    top: 24px;
-    right: 24px;
-    justify-content: center;
+  top: 24px;
+  right: 24px;
+  justify-content: center;
 }
 .close-icon {
   fill: #2e2f42;
@@ -245,6 +255,7 @@ img {
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-button:hover,
 .section-button:focus {
@@ -356,6 +367,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-list-link:hover,
@@ -432,6 +444,8 @@ img {
   justify-content: center;
   color: #8e8f99;
   fill: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-five-link:hover,
 .section-five-link:focus {
@@ -473,6 +487,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
 .footer-list-link:hover,
@@ -523,27 +538,23 @@ img {
 
   transform: translatey(100%);
   transition: transform 250ms ease-in-out;
-
 }
 .backdrop-text {
-position: absolute;
-width: 296px;
-height: 96px;
-left: 32px;
-top: 40px;
-background-color: #4D5AE5);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
-
+  position: absolute;
+  width: 296px;
+  height: 96px;
+  left: 32px;
+  top: 40px;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
-
 
 .filter-block-link:hover .filter-backdrop {
   transform: translatey(0);
 }
-
 
 .filter {
   padding-top: 96px;
@@ -631,5 +642,4 @@ color: #F4F4FD;
 }
 .filter-block-list-item:hover,
 .filter-block-list-item:focus {
-  overflow: ;
 }
